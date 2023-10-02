@@ -1,0 +1,1271 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+.header{
+    height:60 px;
+    width: 100%;
+    background-color: rgb(241, 149, 187);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    overflow: auto;
+    z-index: 100;
+}
+
+body{
+    background-image: url(../image/خلفية2.jpg );
+    background-repeat: no-repeat;
+    /* height: 7000 ; */
+}
+.img1{
+    width: 150px;
+    height: 60px;
+    margin-left: 70px;
+    float: left;
+}
+.list1{
+    list-style: none;
+    float: right;
+    margin-right: 70px;
+
+}
+.after{
+    display: inline-block;
+    height: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+.after::after{
+    position: absolute;
+    content: " ";
+
+    width: 0;
+    height: 3;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgb(170, 42, 159);
+    opacity: 0;
+    transition: 0.9s;
+
+}
+.after:hover::after{
+width: 100%;
+height: 3px;
+opacity: 1;
+}
+.list1 .after li{
+    
+    display: inline-block;
+    font-size: 25px;
+}
+.list1 li a{
+    color: rgb(8, 115, 216);
+    text-decoration: none;
+}
+
+.s1{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(170, 42, 159);
+    float: right;
+    margin-top: 43px ;
+   margin-right: -130px;
+}
+
+.d1{
+
+    width: 1500px;
+}
+.head1{
+
+    margin-top: 320px;
+    margin-left: 180px;
+    font-size: 55px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color:rgb(70, 5, 70);
+}
+.p1{
+    margin-left: 260px;
+    color:rgb(119, 10, 119);
+    font-size: 25px;
+
+}
+.but1{
+    width: 160px;
+    height: 55px;
+    background-color: rgb(236, 216, 236);
+    margin-left: 440px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(70, 5, 70);
+    text-transform: capitalize;
+    border-radius: 7px;
+    border: none;
+    
+}
+.but2{
+    width: 160px;
+    height: 55px;
+    background-color:rgb(170, 42, 159) ;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 7px;
+    border: none;
+} 
+.but1:hover{
+    background-color: rgb(197, 170, 197);
+}
+.but2:hover{
+    background-color: rgb(85, 1, 78);
+}
+
+.d2{
+    margin-top: 340px;
+    overflow: auto;
+    width: 100%;
+}
+.head2{
+    
+    margin-left: 600px;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgb(70, 5, 70);
+
+}
+.line{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(224, 16, 224);
+    margin-left: 750px;
+    margin-top: -30px;
+}
+.welcom1{
+    width: 25% ;
+    height: 270px;
+    float: left;
+    border: solid  2px rgb(236, 216, 236);
+    margin-left: 100px;
+    position: relative;
+     
+
+
+
+}
+
+.welcom2{
+    width: 25% ;
+    height: 270px;
+    float: left;
+    border: solid  2px rgb(236, 216, 236);
+    margin-left: 90px;
+    position: relative;
+
+
+
+}
+.welcom3{
+    width: 25% ;
+    height: 270px;
+    float: right;
+    border: solid  2px rgb(236, 216, 236);
+    margin-right: 100px;
+    position: relative;
+     
+
+
+
+}
+
+.d2 i{
+    color: rgb(231, 119, 166);
+    font-size:50px;
+    margin: 20px  43%;
+}
+
+.head3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 5, 70);
+
+}
+.p2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(99, 9, 99);
+    font-weight:initial ;
+}
+.d2 a{
+    margin-left: 38%;
+    text-decoration: none;
+    color: rgb(231, 119, 166);
+    font-size: 20px;
+}
+.welcom1::after{
+    position: absolute;
+    content: " ";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.6s;
+}
+.welcom1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.welcom2::after{
+    position: absolute;
+    content: " ";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.6s;
+}
+.welcom2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.welcom3::after{
+    position: absolute;
+    content: " ";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.6s;
+}
+.welcom3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.welcom1:hover .head3{
+color: rgb(241, 149, 187);
+}
+.welcom2:hover .head3{
+    color: rgb(241, 149, 187);
+}
+.welcom3:hover .head3{
+    color: rgb(241, 149, 187);
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.begar{
+    
+    background-color: rgb(236, 216, 236);
+    
+    
+}
+.d3{
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.head4{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(70, 5, 70);
+}
+
+.perant1{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-left: 200px;
+    float: left;
+    
+
+}
+.perant2{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-left:113px;
+    margin-right: 113px;
+    float: left;
+
+}
+.perant3{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-right: 200px;
+    float: left;
+
+}
+.img{
+ position: absolute;
+ width: 100%;
+ height: 95%;
+ margin-left: 16px;
+ margin-top: 10px;
+ z-index: 0;
+ 
+}
+
+.icon{
+    position: absolute;
+    width: 115%;
+    height: 105%;
+    margin-left: -8px;
+    background-color: rgba(70, 5, 70, 0.356);
+    visibility: hidden;
+    opacity: 0;
+}
+.perant1:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.perant2:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.perant3:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.perant4:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.perant5:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.perant6:hover .icon{
+    visibility: visible;
+    transition: 1.4S;
+    opacity: 1;
+}
+.picon{
+    text-align: center;
+    color: rgb(70, 5, 70);
+}
+.hicon{
+    text-align: center;
+    color: rgb(70, 5, 70);
+}
+.i1{
+    margin-left: 40%;
+}
+.icon a  i{
+
+    font-size: 25px;
+    color:rgb(70, 5, 70) ;
+    height: 28px;
+    width:28px;
+    background-color:rgb(199, 144, 199);
+    border: solid 2px rgb(199, 144, 199);
+}
+.d4{
+    width: 100%;
+    overflow: hidden;
+}
+.perant4{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-left: 200px;
+    float: left;
+    
+
+}
+.perant5{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-left:113px;
+    margin-right: 113px;
+    float: left;
+
+}
+.perant6{
+    width: 20%;
+    height: 405px;
+    position: relative;
+    margin-right: 200px;
+    float: left;
+
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.head5{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(70, 5, 70);
+}
+.pwork1{
+    width: 100%;
+    overflow: auto;
+
+}
+.work1{
+    width: 24%;
+    height: 180px;
+    border: solid 2px  rgb(236, 216, 236);
+    margin-left: 140px;
+    float: left;
+    position: relative;
+}
+.dresses{
+    display: inline;
+    font-size: 30px;
+    margin-left: 8%;
+    color: rgb(70, 5, 70);
+}
+.work1 i{
+    font-size: 35px;
+    color: rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+.D{
+    font-size: 20px;
+    color: rgb(155, 123, 155);
+    margin-left: 17%;
+}
+
+
+.work2{
+    width: 24%;
+    height: 180px;
+    border: solid 2px rgb(236, 216, 236);
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+    position: relative;
+}
+
+.work3{
+    width: 24%;
+    height: 180px;
+    border: solid 2px rgb(236, 216, 236);
+    margin-right: 140px;
+    float: left;
+    position: relative;
+}
+
+.work2 i{
+    font-size: 35px;
+    color: rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+
+.work3 i{
+    font-size: 35px;
+    color:rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+
+.work4{
+    width: 24%;
+    height: 180px;
+    border: solid 2px rgb(236, 216, 236);
+    margin-left: 140px;
+    float: left;
+    position: relative;
+}
+
+.work5{
+    width: 24%;
+    height: 180px;
+    border: solid 2px rgb(236, 216, 236);
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+    position: relative;
+}
+
+.work6{
+    width: 24%;
+    height: 180px;
+    border: solid 2px rgb(236, 216, 236);
+    margin-right: 140px;
+    float: left;
+    position: relative;
+}
+.work4 i{
+    font-size: 35px;
+    color: rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+.work5 i{
+    font-size: 35px;
+    color: rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+.work6 i{
+    font-size: 35px;
+    color: rgb(231, 119, 166);
+    margin-left: 15px;
+    
+}
+.work1:hover .dresses{
+color: rgb(238, 142, 182);
+}
+.work2:hover .dresses{
+    color: rgb(238, 142, 182);
+}
+.work3:hover .dresses{
+    color: rgb(238, 142, 182);
+}
+.work4:hover .dresses{
+    color: rgb(238, 142, 182);
+}
+.work5:hover .dresses{
+    color: rgb(238, 142, 182);
+}
+.work6:hover .dresses{
+    color: rgb(238, 142, 182);
+}
+
+
+.work1::after{
+position: absolute;
+content: " ";
+
+width: 0;
+height: 0;
+
+top: 0;
+left: 0;
+
+background-color: rgb(155, 123, 155);
+opacity: 0;
+transition: 0.5s;
+}
+.work1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.work2::after{
+    position: absolute;
+    content: " ";
+    
+    width: 0;
+    height: 0;
+    
+    top: 0;
+    left: 0;
+    
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+ .work2:hover::after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.5;
+ }
+.work3::after{
+    position: absolute;
+    content: " ";
+        
+    width: 0;
+    height: 0;
+        
+    top: 0;
+    left: 0;
+        
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+.work3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.work4::after{
+    position: absolute;
+    content: " ";
+            
+    width: 0;
+    height: 0;
+            
+    top: 0;
+    left: 0;
+            
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+.work4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.work5::after{
+    position: absolute;
+    content: " ";
+                
+    width: 0;
+    height: 0;
+                
+    top: 0;
+    left: 0;
+                
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+.work5:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.work6::after{
+    position: absolute;
+    content: " ";
+                    
+    width: 0;
+    height: 0;
+                    
+    top: 0;
+    left: 0;
+                    
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+.work6:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.begar3{
+    width: 100%;
+    height: 680px;
+    background-color: rgb(236, 216, 236);
+    overflow: hidden;
+}
+
+.head6{
+    margin-left: 140px;
+    font-size: 40px;
+    color: rgb(70, 5, 70);
+}
+.line2{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(224, 16, 224);
+    margin-left: 145px;
+    margin-top: -30px;
+}
+.amanip{
+    margin-left: 140px;
+    font-size: 25px;
+    color: rgb(112, 51, 112);
+}
+.amani{
+    width: 50%;
+    float: left;
+}
+.amani2{
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+.amani i{
+    font-size: 18px;
+    border-radius: 50%;
+    border: solid 2px rgb(197, 170, 197);
+    color: rgb(70, 5, 70);
+    margin-left: 140px;
+}
+.amanis{
+    color: rgb(138, 80, 138);
+    margin-left: 10px;
+}
+.amaniul li {
+    
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: rgb(70, 5, 70);
+    display: inline-block;
+    margin-left: 10px;
+}
+.amaniul .li1{
+   margin-left:250px ;
+   background-color: rgb(224, 16, 224);
+}
+.amaniul  li:hover{
+    background-color: rgb(224, 16, 224);
+}
+.begar4{
+    background-image: url(../image/مشروع-محل-ملابس-نسائية-جدوى-المشروع-لل-1.jpg) ;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.ic{
+    width: 22%;
+    height: 350px;
+    float: left;
+    margin-left: 30px;
+
+}
+.ic1{
+    margin-left: 40px;
+}
+.ic i{
+    color: rgb(119, 10, 119);
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 40%;
+
+}
+.ic h2{
+    color:whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.ic p{
+    color:whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -35px;
+    
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////// */
+.begar5{
+    background-color: rgba(241, 223, 241, 0.445);
+    width: 100%;
+    height: 800px;
+
+}
+.head7{
+    text-align: center;
+    color: rgb(70, 5, 70);
+}
+
+.pric1{
+    width: 300px;
+    height: 480px;
+    border: solid   rgb(199, 144, 199)  2px;
+    float: left;
+    margin-left: 250px;
+    position: relative;
+
+}
+.pric2{
+    width: 300px;
+    height: 480px;
+    border: solid    rgb(199, 144, 199) 2px;
+    float: left;
+    margin-left: 88px;
+    position: relative;
+}
+.pric3{
+    width: 300px;
+    height: 480px;
+    border: solid    rgb(199, 144, 199)  2px;
+    float: right;
+    margin-right:250px;
+    position: relative;
+}
+.pricing{
+    overflow: auto;
+  
+}
+.h2{
+    text-align: center;
+    font-weight:bold;
+    color:rgb(70, 5, 70) ;
+}
+.pri1{
+    border-radius:50%;
+    width: 110px;
+    height: 110px;
+    border: solid rgb(238, 142, 182)  2px;
+    margin-left: 90px;
+}
+.pri2{
+    border-radius:50%;
+    width: 110px;
+    height: 110px;
+    border: solid rgb(238, 142, 182)  2px;
+    margin-left: 90px;
+}
+.pri3{
+    border-radius:50%;
+    width: 110px;
+    height: 110px;
+    border: solid rgb(238, 142, 182)  2px;
+    margin-left: 90px;
+}
+.hh{
+    font-size: 40px;
+    height: 20px;
+    margin-left: 22px;
+}
+.pr{
+    margin-left: 18px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+.pp{
+    text-align: center;
+    color: rgb(145, 42, 145);
+    font-size: large;
+
+}
+.ppp{
+    text-align: center;
+    color:rgb(156, 93, 156);
+}
+.button{
+    border: solid rgb(238, 142, 182) 2px;
+    height: 40px;
+    width: 140px;
+    margin-left: 80px;
+    background-color: white;
+    color:rgb(238, 142, 182) ;
+   background-color:  rgba(241, 223, 241, 0.445);
+   margin-top: -15px;
+}
+.button:hover{
+    background-color:rgb(238, 142, 182) ;
+    color: white;
+}
+ .pric1:hover  h2{
+    color: red;
+    transition: 0.6s;
+}
+  .pric2:hover  h2{
+    color: red;
+    transition: 0.6s;
+}
+ .pric3:hover  h2{
+    color: red;
+    transition: 0.6s;
+}
+.pric1:hover .pri1 .hh{
+    color: red;
+    transition: 0.6s;
+
+}
+.pric2:hover .pri2 .hh{
+    color: red;
+    transition: 0.6s;
+}
+.pric3:hover  .pri3 .hh{
+    color: red;
+    transition: 0.6s;
+}
+.pric1:hover .pri1 .pr{
+    color: red;
+    transition: 0.6s;
+}
+.pric2:hover .pri2 .pr{
+    color: red;
+    transition: 0.6s;
+}
+.pric3:hover  .pri3 .pr{
+    color: red;
+    transition: 0.6s;
+}
+
+
+
+.pric1::after{
+    position: absolute;
+    content: " ";
+
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pric1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.pric2::after{
+    position: absolute;
+    content: " ";
+
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pric2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.pric3::after{
+    position: absolute;
+    content: " ";
+
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pric3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.begar6{
+    background-image: url(../image/خلفية5.jpg)  ;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: auto;
+}
+.tvdrhgulg{
+    width: 50%;
+    height: 400px;
+    float: left;
+    
+}
+.imagebegar61{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: inline;
+}
+.imagebegar6{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 150px;
+    display: inline;
+}
+.head91{
+
+    color: white;
+    font-size: 34px;
+    margin-top: -70px;
+    margin-left: 350px;
+    text-transform: capitalize;
+    
+}
+.head9{
+
+    color: white;
+    font-size: 34px;
+    margin-top: -70px;
+    margin-left: 220px;
+    text-transform: capitalize;
+    
+}
+.parigraf11{
+    color: rgb(224, 16, 224);
+    font-size: 18px;
+    margin-left: 355px;
+    margin-top: -25px;
+}
+.parigraf1{
+    color:rgb(224, 16, 224);
+    font-size: 18px;
+    margin-left: 230px;
+    margin-top: -25px;
+}
+.parigraf2{
+    color:white;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 270px;
+}
+.parigraf22{
+    color:white;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 140px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.team-content{
+
+    overflow: auto;
+}
+.team-item{
+
+    float: left;
+    width: 30%;
+    padding: 14px  18px;
+    text-align: center;
+    background-color:rgb(236, 216, 236);
+    position: relative;
+
+}
+.ww{
+    margin: 0 5%;
+}
+.team-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+}
+.team-img  img{
+    width: 100%;
+}
+.team-overley{
+    position: absolute;
+    top: 0;
+    background-color: rgba(8, 8, 8, 0.473);
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: 0.6s;
+    opacity: 0;
+
+}
+
+.team-overley a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: rgb(88, 156, 219);
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    
+}
+
+.team-overley a i{
+    line-height: 40px;
+    
+}
+.team-head{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(70, 5, 70);
+}
+.line3{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(224, 16, 224);
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.team-info-tit{
+    text-transform: capitalize;
+    color: rgb(70, 5, 70);
+    font-size: 25px;
+    line-height: 20px;
+}
+.team-info-span{
+
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(138, 80, 138);
+}
+.team-item:hover  .team-info-tit{
+    color: white;
+}
+.team-item:hover  .team-info-span{
+    color: rgb(8, 115, 216);
+}
+.team-item:hover .team-overley{
+    visibility: visible;
+    opacity: 1;
+}
+.team-item::after{
+    position: absolute;
+    content: " ";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(155, 123, 155);
+    opacity: 0;
+    transition: 1s;
+}
+
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+   
+}
+.container2{
+    width: 70%;
+    margin: auto;
+}
+.news{
+    width: 100%;
+   
+}
+.newss{
+    background-color: whitesmoke;
+    width: 100%;
+    overflow: auto;
+}
+.newsss{
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 0 15px;
+    position: relative;
+
+
+}
+.newsss::after{
+    position: absolute;
+    content: " ";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(138, 80, 138);
+    opacity: 0;
+    transition: 1s;
+}
+.newsss:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+
+}
+.newss i{
+    font-size: 15px;
+    color: rgb(238, 142, 182);
+}
+.newss span{
+    font-size: 15px;
+    color: rgb(70, 5, 70);
+}
+.aa{
+    margin: 0   5% ;
+
+}
+.newss  img{
+    width: 75%;
+    height:300px;
+}
+.head10{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(70, 5, 70);
+}
+.new-h2{
+    color: rgb(70, 5, 70);
+    text-align: start;
+    
+}
+.new-p{
+    color: rgb(155, 123, 155);
+    text-align: start;
+    line-height: 25px;
+}
+.newss a{
+    text-decoration: none;
+    color: rgb(8, 115, 216);
+    font-size: 20px;
+}
+.line4{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(224, 16, 224);
+    margin-left: 500px;
+    margin-top: -30px;
+}
+.begar7{
+    width: 100%;
+    background-color: rgb(199, 144, 199);
+}
+.begar7 img{
+    margin-left: 43%;
+    width: 200px;
+    height: 200px;
+}
+.begar7 i{
+    font-size: 35px;
+    color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(155, 123, 155);
+    transition: 0.4s;
+    
+}
+.begar7 i:hover{
+    background-color: rgb(95, 53, 95);
+}
+
+.qqq{
+    margin-left: 35%;
+}
+.final{
+    margin-left: 35.3%;
+    color:rgb(223, 211, 211);
+}
+
